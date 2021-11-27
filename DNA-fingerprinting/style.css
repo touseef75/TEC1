@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.video-background {
+  background-color: rgb(34, 4, 63);
+}
+.sub-name {
+  text-align: center;
+}
+.sub-name img {
+  width: 22%;
+  border-radius: 50%;
+  border: black 2px solid;
+}
+.sub-name h1 {
+  color: black;
+  text-decoration: underline black;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.heading {
+  margin: 2.5rem auto;
+  width: 100%;
+  height: 25rem;
+  animation: heading 1s ease-in;
+}
+.row {
+  animation: topics 1s ease-in;
+}
+.lecture-headings {
+  width: 100%;
+  height: 25rem;
+  margin: 3rem auto;
+}
+.col-md-3 {
+  margin: 1rem auto;
+  text-align: center;
+}
+.col-md-3 img {
+  border-radius: 45%;
+  width: 50%;
+}
+.col-md-3 h4 {
+  color: black;
+  text-decoration: underline black;
+}
+.gene-cloning {
+  text-align: center;
+  display: list-item;
+}
+.gene-cloning video {
+  /* border: 2px solid black; */
+  width: 70%;
+}
+.button {
+}
+@keyframes heading {
+  0% {
+    transform: translatex(900px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
+@keyframes topics {
+  0% {
+    transform: translatex(-900px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
