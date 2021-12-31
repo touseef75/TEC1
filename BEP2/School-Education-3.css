@@ -157,6 +157,10 @@
     margin-right: 74px;
   }
 
+  .u-section-2 .u-icon-3 {
+    color: rgb(0, 0, 0) !important;
+  }
+
   .u-section-2 .u-layout-cell-4 {
     min-height: 139px;
   }
@@ -393,7 +397,7 @@
 
 .u-section-3 .u-image-3 {
   min-height: 719px;
-  background-image: url("images/bacnner3.png");
+  background-image: url("./bacnner3.png");
   background-position: 50% 50%;
 }
 
@@ -770,7 +774,6 @@
 .u-section-4 .u-group-1 {
   width: 570px;
   min-height: 142px;
-  height: auto;
   margin: 20px auto 0;
 }
 
@@ -803,6 +806,8 @@
 
 .u-section-4 .u-text-2 {
   width: 203px;
+  text-transform: none;
+  font-weight: 700;
   margin: 27px auto 0;
 }
 
@@ -825,6 +830,8 @@
 }
 
 .u-section-4 .u-text-3 {
+  text-transform: none;
+  font-weight: 700;
   margin: 31px 18px 0;
 }
 
@@ -846,6 +853,8 @@
 }
 
 .u-section-4 .u-text-4 {
+  text-transform: none;
+  font-weight: 700;
   margin: 38px 18px 0;
 }
 
@@ -864,6 +873,8 @@
 
 .u-section-4 .u-text-5 {
   width: 203px;
+  text-transform: none;
+  font-weight: 700;
   margin: 42px auto 0;
 }
 
@@ -874,7 +885,6 @@
 
   .u-section-4 .u-group-1 {
     width: 470px;
-    height: auto;
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -894,11 +904,6 @@
     position: relative;
   }
 
-  .u-section-4 .u-text-2 {
-    text-transform: none;
-    font-weight: 700;
-  }
-
   .u-section-4 .u-layout-cell-2 {
     min-height: 262px;
   }
@@ -916,8 +921,6 @@
   }
 
   .u-section-4 .u-text-3 {
-    text-transform: none;
-    font-weight: 700;
     width: 167px;
     margin-left: 0;
     margin-right: 0;
@@ -940,8 +943,6 @@
   }
 
   .u-section-4 .u-text-4 {
-    text-transform: none;
-    font-weight: 700;
     width: 167px;
     margin-left: 0;
     margin-right: 0;
@@ -959,8 +960,6 @@
   }
 
   .u-section-4 .u-text-5 {
-    text-transform: none;
-    font-weight: 700;
     width: 167px;
   }
 }
