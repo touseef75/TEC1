@@ -35712,23 +35712,40 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 108px;
+  }
+
+  .u-header .u-icon-1 {
+    margin-top: 11px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: 0;
+    margin-top: -67px;
+    margin-right: 11px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 111px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: -64px;
-    margin-right: 297px;
-    margin-left: auto;
+    margin-top: -65px;
+    margin-right: 38px;
+    margin-bottom: 32px;
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 112px;
+  }
+
   .u-header .u-menu-1 {
-    width: 24px;
-    margin-right: 39px;
+    margin-top: -70px;
+    margin-right: -17px;
+    margin-bottom: 37px;
   }
 }
 .u-footer .u-sheet-1 {
