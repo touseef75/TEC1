@@ -35752,16 +35752,8 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 13px;
 }
 
-@media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 282px;
-  }
-}
-@media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 507px;
-  }
-}
+
+
 
 
  /*begin-variables base-font-size*/ 
